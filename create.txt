@@ -11,5 +11,7 @@ New-Item -ItemType File -Force -Path "requirements.txt"
 New-Item -ItemType File -Force -Path "Dockerfile"
 New-Item -ItemType File -Force -Path ".gitignore"
 New-Item -ItemType File -Force -Path "tests\test_app.py"
+New-Item -ItemType File -Force -Path "tests\__init__.py"
+
 New-Item -ItemType File -Force -Path ".github\workflows\ci-dockerhub.yml"
 
